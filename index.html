@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./Imagens/A.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Decodificador</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="./Imagens/logoAlura.png" alt="logo">
+        <h1>Decodificador</h1>
+    </header>
+    <main>
+        <section class="sessao">
+            <div class="caixa_texto">
+                <textarea id="input" placeholder="Digite seu texto aqui..." class="texto"></textarea>
+            </div>
+            <div class="alerta">
+                <img src="Imagens/Alert.png" alt="alerta">
+            </div>
+            <div class="botoes">
+                <button onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+                <button onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+            </div>
+        </section>
+        <section class="sessao2">
+            <div class="menino">
+                <img src="Imagens/menino.png" alt="menino com lupa">
+            </div>
+            <div class="paragrafo">
+                <h3>Nenhuma mensagem <br>encontrada.</h3>
+                <p>Digite o texto que deseja criptografar ou <br>descriptografar</p>
+            </div>
+            <div class="botao_copiar">
+                <input type="button" class="btn_copiar" value="Copiar">
+            </div>
+            <div class="resultado">
+                <p class="texto-resultado"></p>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <p>© 2024 - Desenvolvido por Kalinne Ferreira</p>
+        <a href="https://www.linkedin.com/in/kalinne-ferreira/"><img src="./Imagens/linkedin.png" alt="LinkedIn"></a>
+        <a href="https://github.com/kalinne18" target="_blank"><img src="./Imagens/github.png" alt="GitHub"></a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

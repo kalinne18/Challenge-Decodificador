@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    height: 100vh;
+    background-image: url(./Imagens/matrix.jpg);
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+}
+
+.logo {
+    width: 40px;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 26%;
+}
+
+h1 {
+    padding: 0% 2% 1% 14%;
+    color: aqua;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin: 10px;
+}
+
+main {
+    position: relative;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.caixa_texto {
+    position: absolute;
+    padding: 9% 5% 0% 5%;
+    width: 80px;
+    height: 50px;
+}
+
+.texto {
+    width: 530px;
+    height: 250px;
+    border: none;
+    border-radius: 20px;
+    background-color: #cbcbe8;
+    opacity: 0.6;
+    cursor: pointer;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: "Chakra Petch", sans-serif;
+    padding: 10% 15%;
+    color: black;
+}
+
+.alerta {
+    position: absolute;
+    width: 40%;
+    height: 8%;
+    top: 382px;
+    left: 160px;
+    display: flex;
+}
+
+.botoes {
+    position: absolute;
+    top: 419px;
+    height: 70px;
+    padding-left: 4%;
+    padding-top: 10px;
+}
+
+.btn-criptografar {
+    width: 280px;
+    height: 55px;
+    border-radius: 24px;
+    background-color: #042349;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Chakra Petch", sans-serif;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.btn-criptografar:hover {
+    border: 2px;
+    background-color: #0A3890;
+}
+
+.btn-descriptografar {
+    width: 280px;
+    height: 55px;
+    border-radius: 24px;
+    background-color: #D8DFE8;
+    color: #042349;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Chakra Petch", sans-serif;
+    border: 1px solid #1c5293;
+    cursor: pointer;
+}
+
+.btn-descriptografar:hover {
+    border: 2px;
+    background-color: #a0b6d0;
+}
+
+.sessao2 {
+    display: flex;
+    position: relative;
+    width: 380px;
+    height: 480px;
+    right: 40px;
+    background-color: #ffffff;
+    color: #042349;
+    box-sizing: border-box;
+    border-radius: 32px;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.50);
+}
+
+.menino {
+    position: relative;
+    left: 15px;
+    box-sizing: border-box;
+    padding-top: 10px;
+
+}
+
+.paragrafo {
+    position: absolute;
+    box-sizing: border-box;
+    top: 300px;
+    left: 40px;
+}
+
+.paragrafo h3 {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "Chakra Petch", sans-serif;
+    text-align: center;
+    color: #343A40;
+}
+
+.paragrafo p {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #495057;
+    padding-top: 10px;
+}
+
+.resultado {
+    bottom: 600px yellow;
+    width: 300px;
+    height: 250px;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 25px;
+    box-sizing: border-box;
+    margin-left: 25px;
+    padding: 2% 1% 2%;
+}
+
+.botao_copiar {
+    display: flex;
+    position: absolute;
+    top: 365px;
+    padding-left: 60px;
+}
+
+.btn_copiar {
+    width: 260px;
+    height: 50px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    color: #0A3871;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Chakra Petch", sans-serif;
+    border: 2px solid #0A3871;
+    cursor: pointer;
+    position: relative;
+    top: 50px;
+}
+
+.btn_copiar:hover {
+    border: 2px;
+    background-color: #ccd8e8;
+}
+
+.ocultar {
+    display: none;
+
+}
+
+.rodape {
+    position: absolute;
+    background-color: #0c1823;
+    color: white;
+    text-align: center;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    width: 100%;
+    margin: 7% 2%;
+    padding: 5px 0px;
+}
